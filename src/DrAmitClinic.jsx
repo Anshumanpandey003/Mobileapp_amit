@@ -292,6 +292,8 @@ function Dashboard({ allPatients, onSelectPatient, onDeletePatient }) {
         }
       </div>
     </div>
+      );
+}
 
 function PatientDetail({ patient, onBack, onMarkSeen }) {
   const [tab, setTab] = useState('overview');
